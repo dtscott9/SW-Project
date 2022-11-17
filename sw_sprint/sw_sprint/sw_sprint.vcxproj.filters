@@ -18,5 +18,21 @@
     <ClCompile Include="sw_sprint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="dist\jsoncpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dist\json\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dist\json\json-forwards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\WDD330\Final\wdd330-final\vite-project\json\character.json">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
