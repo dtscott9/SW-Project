@@ -1,0 +1,9 @@
+﻿  sw_sprint.cpp
+sw_sprint.obj : error LNK2001: unresolved external symbol __imp_curl_easy_perform
+sw_sprint.obj : error LNK2001: unresolved external symbol __imp_curl_easy_init
+sw_sprint.obj : error LNK2001: unresolved external symbol __imp_curl_easy_cleanup
+sw_sprint.obj : error LNK2001: unresolved external symbol __imp_curl_easy_setopt
+sw_sprint.obj : error LNK2001: unresolved external symbol "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &)" (?imshow@cv@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@@Z)
+sw_sprint.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@2@@Z)
+sw_sprint.obj : error LNK2001: unresolved external symbol "class cv::Mat __cdecl cv::imdecode(class cv::_InputArray const &,int)" (?imdecode@cv@@YA?AVMat@1@AEBV_InputArray@1@H@Z)
+C:\Users\dtsco\OneDrive\Desktop\Coding4\Module5\SW-Project\sw_sprint\x64\Release\sw_sprint.exe : fatal error LNK1120: 7 unresolved externals

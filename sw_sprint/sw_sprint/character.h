@@ -17,5 +17,6 @@ private:
 public:
 	character(Value name, Value id, Value species, Value gender, Value homeWorld);
 	void displayInfo();
+	int getId();
 };
 

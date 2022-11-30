@@ -13,3 +13,8 @@ void character::displayInfo()
 {
 	cout << "\nID: " << id << "\nName: " << name << "\nSpecies: " << species << "\nGender: " << gender << "\nHome World: " << homeWorld << "\n";
 }
+
+int character::getId()
+{
+	return id.asInt();
+}
