@@ -22,12 +22,14 @@ using namespace std;
 using namespace Json;
 using namespace cv;
 
-list<character> favorites;
 
+//Character and favorites list elements
+list<character> favorites;
 void displayCharList(Value& param);
 void displayCharInfo(Value& param, int choice, int menu);
 void loopThroughList();
 
+//These next two functions are used to convert to img url to a viewable image for opencv
 size_t write_data(char* ptr, size_t size, size_t nmemb, void* userdata) {
     std::ostringstream* stream = (std::ostringstream*)userdata;
     size_t count = size * nmemb;
@@ -53,6 +55,7 @@ Mat curlImg(const char *imgUrl)
     return image;
 }
 
+//Function that is used to display the image found in the json
 void displayImage(int i, Value& param) {
 
     string path = param[i]["image"].asString();
@@ -69,20 +72,19 @@ void displayImage(int i, Value& param) {
 
 int main()
 {
-
-
-    
-    /*return 0;*/
-    /*cout << "Hello World!\n";*/
+    //JSON variables
     Reader reader;
     Value value;
+
+    //vars related to menu choice
     int menuChoice = -1;
     int charChoice = -1;
-    
-    ifstream file("character.json");
 
+    //These next two lines hadle the parsing of the json data
+    ifstream file("character.json");
     file >> value;
     
+    //This is where the startup menu begins
     while (menuChoice != 0)
     {
         cout << "\nSelect an Option\n1. View Character Gallery\n2. View Favorites\n3. Delete from Favorites\n0. Quit\n";
