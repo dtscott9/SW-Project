@@ -4,7 +4,7 @@ This is a project I worked on to better my understanding of the C++ language but
 
 This program is a gallery to view info and pictures of different Star Wars characters. The user can also make a list of their favorite characters, to which they can add to or remove from at any time. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=EghYNbQovwU)
 
 # Development Environment
 
