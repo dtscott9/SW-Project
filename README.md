@@ -26,5 +26,5 @@ The IDE I used for this project was Microsoft Visual Studio 2022. I developed th
 # Future Work
 
 * Cleanup display of info so it's easier to read.
-* Add pictures to the characters that do not an image.
+* Add pictures to the characters that do not have an image.
 * Add other menu options to display other info such as planets or starships.
