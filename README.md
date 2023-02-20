@@ -17,7 +17,6 @@ The IDE I used for this project was Microsoft Visual Studio 2022. I developed th
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Load images from url](https://answers.opencv.org/question/91344/load-image-from-url/)
 * [Libcurl installation](https://stackoverflow.com/questions/53861300/how-do-you-properly-install-libcurl-for-use-in-visual-studio-2017)
 * [vcpkg dowload](https://github.com/microsoft/vcpkg/tags)
